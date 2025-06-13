@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(28,42,69);
+    font-family: "Poppins", sans-serif;}
+
+header{
+    background-color: rgb(28,42,69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+
+}
+
+.heading{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+
+a{color: white;}
+
+.login{margin: 1rem;}
+
+.s1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.s1d1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.s1img1{
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+.s1d1-1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgb(28,42,69);
+    margin-bottom: 5rem ;
+    text-align: center;}
+
+.s1d1-2, .s1d1-3{
+    line-height: 1.8em;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 70vw;
+}
+
+
+.burger{
+    display: none;
+}
+
+.burger a img{
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+     display: none;
+    }
+
+.heading{
+text-align: center;
+font-size: 1rem;
+display: flex;
+flex-direction: column;
+}
+
+.heading img{
+    width: 40px;
+    height: 40px;
+}
+
+.burger{
+    display: block;
+}
+}
+
+@media screen and (max-width: 500px){
+
+    .s1d1-1{
+        font-size: 2.8rem;
+        margin-bottom: 4rem;
+    }
+
+    .s1d1-2, .s1d1-3{
+        font-size: 0.8rem;
+    }
+
+
+
+}
+    
+
